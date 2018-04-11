@@ -22,6 +22,16 @@
   font-size: large;
 }
 
+.navi{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.fa-child{
+  color: purple;
+  font-size: xx-large;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
