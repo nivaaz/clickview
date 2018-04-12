@@ -26,12 +26,47 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
-
-.fa-child{
-  color: purple;
-  font-size: xx-large;
+/*SEARCH BAR*/
+.SearchBar {
+ border: 2px solid pink;
 }
+/*  VIDEO */
+
+.VideoItem {
+margin: auto;
+padding: 10px 10px;
+min-width: 100px;
+}
+.VideoContainer{
+border: 1px solid grey;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 80px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.title, .vidName {
+font-family: 'Roboto', sans-serif;
+text-shadow:2px 2px 15px white
+}
+
+.vidDes{
+  font-family: 'Open Sans', sans-serif;
+color:light-grey;
+font-weight: bold;
+}
+
+.thumb{
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
